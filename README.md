@@ -1,7 +1,7 @@
 # haptics-lab-py
 Pythonのサンプルプログラムをまとめたリポジトリ
 
-## グラフの作成
+## グラフの作成 haptics_lab_py/plot
 - 論文に適したグラフのスタイル．  
   matplotlibやseabornを使用する際，importするとスタイルが変化する．
   - plot_style.py

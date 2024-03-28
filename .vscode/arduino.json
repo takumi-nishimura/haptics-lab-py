@@ -1,0 +1,6 @@
+{
+    "port": "/dev/tty.usbserial-54790115271",
+    "configuration": "PSRAM=enabled,PartitionScheme=default,UploadSpeed=921600,DebugLevel=none,EraseFlash=none",
+    "board": "esp32:esp32:m5stack-fire",
+    "sketch": "haptics_lab_py/serial/SerialSample/SerialSample.ino"
+}
