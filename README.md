@@ -19,3 +19,6 @@ Pythonのサンプルプログラムをまとめたリポジトリ
    ```
    from natnetpy import OptiClient
    ```
+
+## シリアル通信 haptics_lab_py/serial
+M5StackとPythonで，シリアル通信の送受信を行うサンプル
