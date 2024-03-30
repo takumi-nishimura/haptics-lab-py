@@ -9,3 +9,10 @@ Pythonのサンプルプログラムをまとめたリポジトリ
   - box_plot.ipynb
 - 相関図のサンプル
   - corr_plot.ipynb
+  
+## モーションキャプチャー haptics_lab_py/mocap
+1. ライブラリをインストール
+   ```
+   poetry add git+ssh://git@github.com:takumi-nishimura/NatNetPy.git
+   ```
+2. 

@@ -10,10 +10,12 @@ python = "^3.12"
 pandas = "^2.2.1"
 seaborn = "^0.13.2"
 pyserial = "^3.5"
+natnetpy = {git = "git@github.com:takumi-nishimura/NatNetPy.git"}
 
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.3"
+black = "^24.3.0"
 
 [build-system]
 requires = ["poetry-core"]
