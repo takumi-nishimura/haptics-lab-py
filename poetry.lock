@@ -711,7 +711,7 @@ scipy = "^1.12.0"
 type = "git"
 url = "git@github.com:takumi-nishimura/NatNetPy.git"
 reference = "HEAD"
-resolved_reference = "1aeb981e5c365a0def7d8a49961ba52103fe566a"
+resolved_reference = "0dffca5f290a1c260ddce7cfaa69abaaf5ea4962"
 
 [[package]]
 name = "nest-asyncio"

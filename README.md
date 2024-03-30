@@ -17,5 +17,5 @@ Pythonのサンプルプログラムをまとめたリポジトリ
    ```
 2. ライブラリをインポート(/mocap/test_mocap.py)
    ```
-   from natnetpy.NatNetClient import OptiClient
+   from natnetpy import OptiClient
    ```

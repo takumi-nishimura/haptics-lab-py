@@ -1,7 +1,7 @@
 import time
 
 import numpy as np
-from natnetpy.NatNetClient import OptiClient
+from natnetpy import OptiClient
 from pyquaternion import Quaternion
 
 fps = 240
