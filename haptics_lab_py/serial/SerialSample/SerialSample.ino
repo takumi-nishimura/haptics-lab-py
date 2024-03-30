@@ -1,5 +1,6 @@
 #include <M5Stack.h>
 
+int cnt = 0;
 
 void setup() {
   M5.begin();
@@ -11,6 +12,7 @@ void setup() {
 
 void loop() {
     if (Serial.available() > 0) {
+        /// Read data from serial
         String data = Serial.readStringUntil('\n');
 
         int commaIndex = data.indexOf(',');
@@ -23,5 +25,14 @@ void loop() {
         M5.Lcd.println(data_1);
         M5.Lcd.print("data_2: ");
         M5.Lcd.println(data_2);
+
+        /// Send data to serial
+        if (data_1 % 5 == 0) {
+          cnt += 1;
+          M5.Lcd.fillScreen(BLUE);
+          Serial.print(cnt);
+          Serial.print(",");
+          Serial.println(cnt*0.1);
+        }
     }
 }
