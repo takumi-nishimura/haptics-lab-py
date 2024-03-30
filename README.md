@@ -15,4 +15,7 @@ Pythonのサンプルプログラムをまとめたリポジトリ
    ```
    poetry add git+ssh://git@github.com:takumi-nishimura/NatNetPy.git
    ```
-2. 
+2. ライブラリをインポート(/mocap/test_mocap.py)
+   ```
+   from natnetpy.NatNetClient import OptiClient
+   ```
